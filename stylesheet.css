@@ -1,0 +1,185 @@
+﻿.welcomebody {
+    margin: 0;
+    padding: 0;
+    background-image: url('images/frontpage.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 420px;
+    height: 550px;
+    padding: 80px 40px;
+    box-sizing: border-box;
+    background: rgba(0,0,0,0.2);
+}
+.welcomeh2 {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    color: rgb(145, 242, 104);
+    font-style: italic;
+    font-size: 55px;
+    margin-bottom: 15px;
+    font-family: Ink Free;
+}
+
+.welcomeh1 {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 55px;
+    margin-bottom: 25px;
+    font-family: Comic Sans MS;
+}
+
+p {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    color: rgb(246, 198, 14);
+    font-family: MV Boli;
+    font-size: 25px;
+    margin-bottom: 25px;
+}
+
+.Btncust {
+    color: rgb(156, 107, 226);
+    font-size: 25px;
+    width: 100%;
+    border: none;
+    outline: none;
+    background-color:rgb(217, 252, 166);
+    cursor: pointer;
+    border-radius: 25px;
+    transition: .2s ease-in-out;
+    height: 40px;
+    font-family: Verdana;
+}
+.Btncust:hover{
+    background-color:rgb(69, 222, 17)
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('images/SecondPage.gif');
+    background-size: cover;
+}
+.secondBox {
+    
+    top: 25px;
+   width:100%;
+    text-align: center;
+    color: white;
+    margin-top: 25px;
+    justify-content: space-between;
+    border-bottom-style: solid;
+    border-bottom-color: inherit;
+    border-bottom-width: medium;
+    border-bottom: solid;
+}
+
+.Btntrans, .BtnHome {
+    padding: 0;
+    margin: 0;
+    margin-bottom: 15px;
+    border-bottom: solid;
+    border: none;
+    outline: none;
+    font-size: 25px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-family: Verdana;
+    text-align: center;
+    color: rgb(238, 229, 226);
+    background-color: Transparent;
+    transition: .2s ease-in-out;
+    height: 40px;
+    justify-content: space-evenly
+}
+.Btntrans:hover {
+    background-color: rgb(246, 198, 14); 
+    width:250px;
+}
+.BtnHome:hover{
+     background-color: rgb(69, 222, 17);
+     width:175px;
+}
+.Transfertd {
+    width: 714px;
+    height: 59px;
+}
+.hometd {
+    width: 731px;
+    height: 59px;
+}
+.userh1{
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    font-family: Comic Sans MS
+}
+.CreditTable {
+    width: 95%;
+    margin-top: 25px;
+}
+.transectionh1 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 55px;
+    margin-bottom: 25px;
+    font-family: Comic Sans MS;
+}
+.transerctionh5 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 55px;
+    margin-bottom: 25px;
+    font-family: Comic Sans MS;
+}
+.thirdbox {
+    position:absolute;
+    transform: translate(-50%,-50%);
+    top: 25px;
+    left: 2%;
+    text-align:right;
+    color: white;
+    margin-top: 25px;
+    justify-content:right;
+    height:100px;
+    width:100%;
+  
+}
+.DDlTransection {
+    text-align: center;
+    width: 1512px;
+    height: 60px;
+}
+.amt_transection {
+    text-align: center;
+    width: 1512px;
+    height: 60px;
+}
+h1Transection {
+    text-align: right;  
+}
+.BtnBack {
+    padding: 0;
+    margin: 0;
+    outline: none;
+    border: none;
+    font-family: Verdana,Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    background-color: rgb(145, 242, 104);
+    color: azure;
+    Height: 55px;
+    Width: 175px;
+    font-size: 40px;
+    border-radius: 10px;
+    float: right;
+    margin-top:10px;
+}
